@@ -1,19 +1,6 @@
 # Ruby-Code
 Ruby on rail
 
-source 'https://rubygems.org'
-gem 'rails', '~> 7.0'
-gem 'pg'
-gem 'devise'
-gem 'pundit'
-gem 'bootstrap', '~> 5.3'
-gem 'jquery-rails'
-
-group :development, :test do
-  gem 'rspec-rails'
-  gem 'factory_bot_rails'
-end
-
 # Database Migration for Users
 def change
   create_table :users do |t|
